@@ -1,0 +1,70 @@
+{
+"skeleton": { "hash": "9KGkmG7LVdsW/fsmGJU9L/igQc0", "spine": "3.7.91", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Bg", "parent": "root", "x": 144.61, "y": 127.21 },
+	{ "name": "Text", "parent": "Bg", "x": 15.75, "y": -113.24 }
+],
+"slots": [
+	{ "name": "Cut_minipoker_0010_Bg", "bone": "Bg", "attachment": "Cut_minipoker_0010_Bg" },
+	{ "name": "Cut_minipoker_0009_mini_1", "bone": "Text", "attachment": "Cut_minipoker_0006_mini_1" }
+],
+"skins": {
+	"default": {
+		"Cut_minipoker_0009_mini_1": {
+			"Cut_minipoker_0000_mini_7": { "y": 47.59, "width": 238, "height": 104 },
+			"Cut_minipoker_0001_mini_6": { "y": 47.59, "width": 238, "height": 104 },
+			"Cut_minipoker_0002_mini_5": { "y": 47.76, "width": 238, "height": 104 },
+			"Cut_minipoker_0003_mini_4": { "y": 47.43, "width": 238, "height": 104 },
+			"Cut_minipoker_0004_mini_3": { "y": 47.59, "width": 238, "height": 104 },
+			"Cut_minipoker_0005_mini_2": { "y": 47.76, "width": 238, "height": 104 },
+			"Cut_minipoker_0006_mini_1": { "y": 47.61, "width": 238, "height": 104 }
+		},
+		"Cut_minipoker_0010_Bg": {
+			"Cut_minipoker_0010_Bg": { "width": 289, "height": 254 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"Cut_minipoker_0010_Bg": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5, "color": "f86edeff" },
+					{ "time": 0.9667, "color": "ffffffff" },
+					{ "time": 1.5, "color": "30ff79ff" },
+					{ "time": 2, "color": "ffffffff" }
+				]
+			},
+			"Cut_minipoker_0009_mini_1": {
+				"attachment": [
+					{ "time": 0.0333, "name": "Cut_minipoker_0005_mini_2" },
+					{ "time": 0.0667, "name": "Cut_minipoker_0004_mini_3" },
+					{ "time": 0.1, "name": "Cut_minipoker_0003_mini_4" },
+					{ "time": 0.1333, "name": "Cut_minipoker_0002_mini_5" },
+					{ "time": 0.1667, "name": "Cut_minipoker_0001_mini_6" },
+					{ "time": 0.2, "name": "Cut_minipoker_0000_mini_7" },
+					{ "time": 0.2333, "name": "Cut_minipoker_0006_mini_1" }
+				]
+			}
+		},
+		"bones": {
+			"Text": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": 0, "y": 39.4 },
+					{ "time": 1.0667, "x": 0, "y": -4.41 },
+					{ "time": 1.1333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.06, "y": 1.6 },
+					{ "time": 1.0667, "x": 1, "y": 0.8 },
+					{ "time": 1.1333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

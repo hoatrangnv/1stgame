@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "xLGXFvhpXJd4Yx+D+k7F6pdniaE", "spine": "3.7.91", "width": 196, "height": 223.06 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Mini_Game", "parent": "root", "x": -0.56, "y": 4.32 },
+	{ "name": "Game", "parent": "root", "x": -0.65, "y": 3.17, "scaleX": 0.603, "scaleY": 0.603 }
+],
+"slots": [
+	{ "name": "Mini_Game", "bone": "Mini_Game", "attachment": "Mini_Game" },
+	{ "name": "Shine", "bone": "root", "attachment": "Shine" },
+	{ "name": "Game", "bone": "Game", "attachment": "Game" }
+],
+"skins": {
+	"default": {
+		"Game": {
+			"Game": { "x": 0.23, "y": 3.87, "width": 185, "height": 107 }
+		},
+		"Mini_Game": {
+			"Mini_Game": { "x": 0.56, "y": -4.32, "width": 196, "height": 196 }
+		},
+		"Shine": {
+			"Shine": { "x": -6.35, "y": 28.56, "width": 158, "height": 193 }
+		}
+	}
+},
+"animations": {
+	"MiniGame_Icon": {
+		"bones": {
+			"Mini_Game": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -90 },
+					{ "time": 0.6667, "angle": 180 },
+					{ "time": 1, "angle": 90 },
+					{ "time": 1.3333, "angle": 0 },
+					{ "time": 1.6667, "angle": -90 },
+					{ "time": 2, "angle": 180 },
+					{ "time": 2.3333, "angle": 90 },
+					{ "time": 2.6667, "angle": 0 }
+				]
+			},
+			"Game": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.1667, "x": 0.897, "y": 0.897 },
+					{ "time": 1.2333, "x": 1, "y": 1 },
+					{ "time": 1.3, "x": 0.897, "y": 0.897 },
+					{ "time": 1.3667, "x": 1, "y": 1 },
+					{ "time": 1.4333, "x": 0.897, "y": 0.897 },
+					{ "time": 1.5, "x": 1.476, "y": 1.476 },
+					{ "time": 1.5667, "x": 1, "y": 1 },
+					{ "time": 1.6333, "x": 1.164, "y": 1.164 },
+					{ "time": 1.7, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

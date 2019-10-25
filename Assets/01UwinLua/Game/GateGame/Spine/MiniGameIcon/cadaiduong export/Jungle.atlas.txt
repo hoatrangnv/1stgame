@@ -1,0 +1,90 @@
+
+Jungle.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cut_jungle_0000_Bg
+  rotate: true
+  xy: 2, 70
+  size: 425, 353
+  orig: 425, 353
+  offset: 0, 0
+  index: -1
+Cut_jungle_0000_j_7
+  rotate: true
+  xy: 555, 116
+  size: 379, 169
+  orig: 379, 169
+  offset: 0, 0
+  index: -1
+Cut_jungle_0001_Lachuoi
+  rotate: true
+  xy: 357, 74
+  size: 421, 196
+  orig: 421, 196
+  offset: 0, 0
+  index: -1
+Cut_jungle_0001_j_6
+  rotate: true
+  xy: 726, 116
+  size: 379, 169
+  orig: 379, 169
+  offset: 0, 0
+  index: -1
+Cut_jungle_0002_j_5
+  rotate: true
+  xy: 897, 116
+  size: 379, 169
+  orig: 379, 169
+  offset: 0, 0
+  index: -1
+Cut_jungle_0003_j_4
+  rotate: true
+  xy: 1068, 116
+  size: 379, 169
+  orig: 379, 169
+  offset: 0, 0
+  index: -1
+Cut_jungle_0004_j_3
+  rotate: true
+  xy: 1239, 116
+  size: 379, 169
+  orig: 379, 169
+  offset: 0, 0
+  index: -1
+Cut_jungle_0005_j_2
+  rotate: true
+  xy: 1410, 116
+  size: 379, 169
+  orig: 379, 169
+  offset: 0, 0
+  index: -1
+Cut_jungle_0006_j_1
+  rotate: false
+  xy: 1581, 326
+  size: 379, 169
+  orig: 379, 169
+  offset: 0, 0
+  index: -1
+Cut_jungle_0007_Soc
+  rotate: false
+  xy: 1581, 2
+  size: 172, 322
+  orig: 172, 322
+  offset: 0, 0
+  index: -1
+Cut_jungle_0011_Mat
+  rotate: true
+  xy: 2, 5
+  size: 23, 20
+  orig: 23, 20
+  offset: 0, 0
+  index: -1
+Cut_jungle_0013_Dayleo
+  rotate: true
+  xy: 2, 30
+  size: 38, 106
+  orig: 38, 106
+  offset: 0, 0
+  index: -1

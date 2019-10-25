@@ -1,0 +1,55 @@
+
+Caothap.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Thapcao_0000_t_5
+  rotate: false
+  xy: 2, 129
+  size: 158, 125
+  orig: 158, 125
+  offset: 0, 0
+  index: -1
+Thapcao_0001_t_4
+  rotate: false
+  xy: 2, 2
+  size: 158, 125
+  orig: 158, 125
+  offset: 0, 0
+  index: -1
+Thapcao_0002_t_3
+  rotate: false
+  xy: 293, 385
+  size: 158, 125
+  orig: 158, 125
+  offset: 0, 0
+  index: -1
+Thapcao_0003_t_2
+  rotate: true
+  xy: 162, 96
+  size: 158, 125
+  orig: 158, 125
+  offset: 0, 0
+  index: -1
+Thapcao_0004_t_1
+  rotate: false
+  xy: 293, 258
+  size: 158, 125
+  orig: 158, 125
+  offset: 0, 0
+  index: -1
+Thapcao_0008_Mui-ten
+  rotate: false
+  xy: 453, 447
+  size: 46, 63
+  orig: 46, 63
+  offset: 0, 0
+  index: -1
+Thapcao_0009_Bg
+  rotate: false
+  xy: 2, 256
+  size: 289, 254
+  orig: 289, 254
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,125 @@
+
+Viking.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cut_viking_0000_Shadow
+  rotate: false
+  xy: 1042, 808
+  size: 345, 187
+  orig: 345, 187
+  offset: 0, 0
+  index: -1
+Cut_viking_0000_v8
+  rotate: false
+  xy: 1694, 882
+  size: 331, 113
+  orig: 331, 113
+  offset: 0, 0
+  index: -1
+Cut_viking_0001_v7
+  rotate: false
+  xy: 1694, 767
+  size: 331, 113
+  orig: 331, 113
+  offset: 0, 0
+  index: -1
+Cut_viking_0002_2
+  rotate: false
+  xy: 695, 528
+  size: 345, 467
+  orig: 345, 467
+  offset: 0, 0
+  index: -1
+Cut_viking_0002_v6
+  rotate: false
+  xy: 695, 413
+  size: 331, 113
+  orig: 331, 113
+  offset: 0, 0
+  index: -1
+Cut_viking_0003_v5
+  rotate: false
+  xy: 353, 347
+  size: 331, 113
+  orig: 331, 113
+  offset: 0, 0
+  index: -1
+Cut_viking_0004_v4
+  rotate: false
+  xy: 348, 232
+  size: 331, 113
+  orig: 331, 113
+  offset: 0, 0
+  index: -1
+Cut_viking_0005_v3
+  rotate: false
+  xy: 348, 117
+  size: 331, 113
+  orig: 331, 113
+  offset: 0, 0
+  index: -1
+Cut_viking_0006_v2
+  rotate: false
+  xy: 335, 2
+  size: 331, 113
+  orig: 331, 113
+  offset: 0, 0
+  index: -1
+Cut_viking_0007_v1
+  rotate: false
+  xy: 686, 298
+  size: 331, 113
+  orig: 331, 113
+  offset: 0, 0
+  index: -1
+Cut_viking_0008_v
+  rotate: false
+  xy: 2, 38
+  size: 331, 113
+  orig: 331, 113
+  offset: 0, 0
+  index: -1
+Cut_viking_0015_Khien
+  rotate: false
+  xy: 1042, 546
+  size: 262, 260
+  orig: 262, 260
+  offset: 0, 0
+  index: -1
+Cut_viking_0016_1
+  rotate: false
+  xy: 353, 462
+  size: 340, 533
+  orig: 340, 533
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 415
+  size: 349, 580
+  orig: 349, 580
+  offset: 0, 0
+  index: -1
+set1_viking
+  rotate: false
+  xy: 2, 153
+  size: 344, 260
+  orig: 344, 260
+  offset: 0, 0
+  index: -1
+set2_viking
+  rotate: false
+  xy: 1389, 788
+  size: 303, 207
+  orig: 303, 207
+  offset: 0, 0
+  index: -1
+toc_viking
+  rotate: false
+  xy: 1306, 736
+  size: 62, 70
+  orig: 62, 70
+  offset: 0, 0
+  index: -1

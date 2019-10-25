@@ -1,0 +1,34 @@
+
+Solotlmn.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cut_solotlmn_0001_bg
+  rotate: false
+  xy: 2, 245
+  size: 289, 254
+  orig: 289, 254
+  offset: 0, 0
+  index: -1
+Cut_solotlmn_0002_solo
+  rotate: false
+  xy: 2, 2
+  size: 157, 34
+  orig: 157, 34
+  offset: 0, 0
+  index: -1
+Cut_solotlmn_0003_tlmn
+  rotate: true
+  xy: 293, 231
+  size: 268, 84
+  orig: 268, 84
+  offset: 0, 0
+  index: -1
+Cut_solotlmn_0004_1
+  rotate: false
+  xy: 2, 38
+  size: 208, 205
+  orig: 208, 205
+  offset: 0, 0
+  index: -1

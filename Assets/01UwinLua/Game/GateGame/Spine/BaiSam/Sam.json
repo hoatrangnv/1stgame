@@ -1,0 +1,123 @@
+{
+"skeleton": { "hash": "S/+fP1rV74OZyTvJgYHEAaO61ss", "spine": "3.7.91", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root", "x": 144.83, "y": 127.2 },
+	{ "name": "Chuon", "parent": "bg", "rotation": -1.2, "x": -31.23, "y": 29.87 },
+	{ "name": "Bich", "parent": "bg", "rotation": 9.6, "x": -15.94, "y": 43.13 },
+	{ "name": "Ro", "parent": "bg", "rotation": 24, "x": 5.18, "y": 54.28 },
+	{ "name": "Co", "parent": "bg", "rotation": 38.4, "x": 32.18, "y": 55.95 },
+	{ "name": "TIm", "parent": "bg", "x": -7.72, "y": -14.13 },
+	{ "name": "Sam", "parent": "bg", "x": -1.13, "y": -74.37 }
+],
+"slots": [
+	{ "name": "Cut_sam_0011_Bg", "bone": "bg", "attachment": "Cut_sam_0007_Bg" },
+	{ "name": "Cut_sam_0000_Shape-2", "bone": "Chuon", "attachment": "Cut_sam_0000_Shape-2" },
+	{ "name": "Cut_sam_0001_Shape-1", "bone": "Bich", "attachment": "Cut_sam_0001_Shape-1" },
+	{ "name": "Cut_sam_0002_Shape-1-copy", "bone": "Ro", "attachment": "Cut_sam_0002_Shape-1-copy" },
+	{ "name": "Cut_sam_0003_Layer-1", "bone": "Co", "attachment": "Cut_sam_0003_Layer-1" },
+	{ "name": "Cut_sam_0001_Tim", "bone": "TIm", "attachment": "Cut_sam_0004_Tim" },
+	{ "name": "Cut_sam_0010_Sam_1", "bone": "Sam", "attachment": "Cut_sam_0006_Sam_1" }
+],
+"skins": {
+	"default": {
+		"Cut_sam_0000_Shape-2": {
+			"Cut_sam_0000_Shape-2": { "rotation": 32.4, "width": 107, "height": 143 }
+		},
+		"Cut_sam_0001_Shape-1": {
+			"Cut_sam_0001_Shape-1": { "rotation": 18, "width": 107, "height": 143 }
+		},
+		"Cut_sam_0001_Tim": {
+			"Cut_sam_0004_Tim": { "width": 208, "height": 147 }
+		},
+		"Cut_sam_0002_Shape-1-copy": {
+			"Cut_sam_0002_Shape-1-copy": { "width": 107, "height": 143 }
+		},
+		"Cut_sam_0003_Layer-1": {
+			"Cut_sam_0003_Layer-1": { "y": 4.79, "rotation": 4.8, "width": 142, "height": 155 }
+		},
+		"Cut_sam_0010_Sam_1": {
+			"Cut_sam_0006_Sam_1": { "width": 184, "height": 93 }
+		},
+		"Cut_sam_0011_Bg": {
+			"Cut_sam_0007_Bg": { "width": 289, "height": 254 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"Co": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": -57.6, "curve": "stepped" },
+					{ "time": 2, "angle": -57.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": 17.46, "y": -37.15, "curve": "stepped" },
+					{ "time": 2, "x": 17.46, "y": -37.15 }
+				]
+			},
+			"Ro": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 },
+					{ "time": 1.3333, "angle": -54, "curve": "stepped" },
+					{ "time": 2, "angle": -54 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 25.76, "y": -30.04, "curve": "stepped" },
+					{ "time": 2, "x": 25.76, "y": -30.04 }
+				]
+			},
+			"Bich": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6667, "angle": 0 },
+					{ "time": 1.6667, "angle": -51.6, "curve": "stepped" },
+					{ "time": 2, "angle": -51.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0 },
+					{ "time": 1.6667, "x": 22.79, "y": -30.63, "curve": "stepped" },
+					{ "time": 2, "x": 22.79, "y": -30.63 }
+				]
+			},
+			"Chuon": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 },
+					{ "time": 1.8333, "angle": -49.2, "curve": "stepped" },
+					{ "time": 2, "angle": -49.2 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 },
+					{ "time": 1.8333, "x": 17.46, "y": -25.89, "curve": "stepped" },
+					{ "time": 2, "x": 17.46, "y": -25.89 }
+				]
+			},
+			"TIm": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.8, "y": 0.8 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"Sam": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.2, "y": 1.2 },
+					{ "time": 1, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 1.2, "y": 1.2 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

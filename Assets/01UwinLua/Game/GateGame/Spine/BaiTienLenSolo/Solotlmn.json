@@ -1,0 +1,78 @@
+{
+"skeleton": { "hash": "iD7YIdcxmfPcZO+39xaSD/gm+14", "spine": "3.7.91", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root", "x": 145.58, "y": 127.73 },
+	{ "name": "solo", "parent": "bg", "x": -64.74, "y": -28.25 },
+	{ "name": "tlmn", "parent": "bg", "x": 2.83, "y": -78.06 },
+	{ "name": "bai", "parent": "bg", "x": -1.41, "y": 33 }
+],
+"slots": [
+	{ "name": "Cut_solotlmn_0001_bg", "bone": "bg", "attachment": "Cut_solotlmn_0001_bg" },
+	{ "name": "Cut_solotlmn_0004_1", "bone": "bai", "attachment": "Cut_solotlmn_0004_1" },
+	{ "name": "Cut_solotlmn_0003_tlmn", "bone": "tlmn", "attachment": "Cut_solotlmn_0003_tlmn" },
+	{ "name": "Cut_solotlmn_0002_solo", "bone": "solo", "attachment": "Cut_solotlmn_0002_solo" }
+],
+"skins": {
+	"default": {
+		"Cut_solotlmn_0001_bg": {
+			"Cut_solotlmn_0001_bg": { "width": 289, "height": 254 }
+		},
+		"Cut_solotlmn_0002_solo": {
+			"Cut_solotlmn_0002_solo": { "width": 157, "height": 34 }
+		},
+		"Cut_solotlmn_0003_tlmn": {
+			"Cut_solotlmn_0003_tlmn": { "x": -17.89, "y": 2.67, "width": 268, "height": 84 }
+		},
+		"Cut_solotlmn_0004_1": {
+			"Cut_solotlmn_0004_1": { "x": -1.12, "y": -13.57, "width": 208, "height": 205 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"Cut_solotlmn_0002_solo": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"solo": {
+				"translate": [
+					{ "time": 0, "x": 137.41, "y": 0 },
+					{ "time": 0.3333, "x": -2.53, "y": 0 },
+					{ "time": 0.4, "x": 18.03, "y": 0 },
+					{ "time": 0.4667, "x": -0.84, "y": 0 }
+				]
+			},
+			"bai": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": -29.37, "y": 0 },
+					{ "time": 1, "x": 0.77, "y": 0 },
+					{ "time": 1.5, "x": 43.61, "y": 0 },
+					{ "time": 2, "x": 1.55, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.6667, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": -1, "y": 1 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"tlmn": {
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0.1, "y": 0.1 },
+					{ "time": 0.5667, "x": 1.2, "y": 1.2 },
+					{ "time": 0.6, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 1.2, "y": 1.2 },
+					{ "time": 0.6667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

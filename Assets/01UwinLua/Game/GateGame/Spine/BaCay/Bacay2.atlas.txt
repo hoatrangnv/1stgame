@@ -1,0 +1,48 @@
+
+Bacay2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cut_3Cay_0000_BG
+  rotate: false
+  xy: 2, 207
+  size: 289, 254
+  orig: 289, 254
+  offset: 0, 0
+  index: -1
+Cut_3Cay_0001_Bich
+  rotate: false
+  xy: 2, 2
+  size: 177, 203
+  orig: 177, 203
+  offset: 0, 0
+  index: -1
+Cut_3Cay_0002_Co
+  rotate: false
+  xy: 293, 271
+  size: 149, 190
+  orig: 149, 190
+  offset: 0, 0
+  index: -1
+Cut_3Cay_0003_Chuon
+  rotate: false
+  xy: 181, 23
+  size: 136, 182
+  orig: 136, 182
+  offset: 0, 0
+  index: -1
+Cut_3Cay_0006_Text_ba
+  rotate: true
+  xy: 444, 352
+  size: 109, 65
+  orig: 109, 65
+  offset: 0, 0
+  index: -1
+Cut_3Cay_0007_Text_cay
+  rotate: true
+  xy: 319, 113
+  size: 156, 85
+  orig: 156, 85
+  offset: 0, 0
+  index: -1

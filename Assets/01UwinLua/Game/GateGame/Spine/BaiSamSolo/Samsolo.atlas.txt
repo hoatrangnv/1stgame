@@ -1,0 +1,62 @@
+
+Samsolo.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cut_sam_0000_Shape-2
+  rotate: true
+  xy: 293, 236
+  size: 107, 143
+  orig: 107, 143
+  offset: 0, 0
+  index: -1
+Cut_sam_0001_Shape-1
+  rotate: false
+  xy: 248, 91
+  size: 107, 143
+  orig: 107, 143
+  offset: 0, 0
+  index: -1
+Cut_sam_0001_Tim
+  rotate: false
+  xy: 2, 97
+  size: 208, 147
+  orig: 208, 147
+  offset: 0, 0
+  index: -1
+Cut_sam_0002_Shape-1-copy
+  rotate: false
+  xy: 357, 91
+  size: 107, 143
+  orig: 107, 143
+  offset: 0, 0
+  index: -1
+Cut_sam_0003_Layer-1
+  rotate: false
+  xy: 293, 345
+  size: 142, 155
+  orig: 142, 155
+  offset: 0, 0
+  index: -1
+Cut_sam_0010_Sam_1
+  rotate: false
+  xy: 2, 2
+  size: 184, 93
+  orig: 184, 93
+  offset: 0, 0
+  index: -1
+Cut_sam_0011_Bg
+  rotate: false
+  xy: 2, 246
+  size: 289, 254
+  orig: 289, 254
+  offset: 0, 0
+  index: -1
+Cut_solosam_0002_solo
+  rotate: true
+  xy: 212, 87
+  size: 157, 34
+  orig: 157, 34
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+Dino.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cut_Dino_0000_Mat-nham
+  rotate: false
+  xy: 2, 2
+  size: 65, 54
+  orig: 65, 54
+  offset: 0, 0
+  index: -1
+Cut_Dino_0001_Layer-2
+  rotate: false
+  xy: 1162, 94
+  size: 345, 313
+  orig: 345, 313
+  offset: 0, 0
+  index: -1
+Cut_Dino_0003_Buicay
+  rotate: false
+  xy: 1509, 185
+  size: 345, 222
+  orig: 345, 222
+  offset: 0, 0
+  index: -1
+Cut_Dino_0005_D_2
+  rotate: true
+  xy: 584, 62
+  size: 345, 576
+  orig: 345, 576
+  offset: 0, 0
+  index: -1
+Cut_Dino_0006_Bg
+  rotate: true
+  xy: 2, 58
+  size: 349, 580
+  orig: 349, 580
+  offset: 0, 0
+  index: -1

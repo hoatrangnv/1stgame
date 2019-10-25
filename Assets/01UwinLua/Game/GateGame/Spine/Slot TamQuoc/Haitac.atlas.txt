@@ -1,0 +1,62 @@
+
+Haitac.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cut_haitac_0000_Loptren
+  rotate: false
+  xy: 1299, 323
+  size: 345, 182
+  orig: 345, 182
+  offset: 0, 0
+  index: -1
+Cut_haitac_0000_h_1
+  rotate: false
+  xy: 1004, 254
+  size: 293, 251
+  orig: 293, 251
+  offset: 0, 0
+  index: -1
+Cut_haitac_0004_BG
+  rotate: true
+  xy: 2, 156
+  size: 349, 580
+  orig: 349, 580
+  offset: 0, 0
+  index: -1
+Cut_haitac_0005_Non
+  rotate: false
+  xy: 1004, 132
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+Cut_haitac_0007_Tay
+  rotate: true
+  xy: 2, 2
+  size: 152, 237
+  orig: 152, 237
+  offset: 0, 0
+  index: -1
+Cut_haitac_0008_KHoi
+  rotate: false
+  xy: 1646, 415
+  size: 51, 90
+  orig: 51, 90
+  offset: 0, 0
+  index: -1
+Cut_haitac_0009_Minh
+  rotate: true
+  xy: 584, 114
+  size: 391, 418
+  orig: 391, 418
+  offset: 0, 0
+  index: -1
+Tialua
+  rotate: false
+  xy: 1299, 262
+  size: 86, 59
+  orig: 86, 59
+  offset: 0, 0
+  index: -1

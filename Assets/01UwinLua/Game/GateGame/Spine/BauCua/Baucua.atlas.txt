@@ -1,0 +1,97 @@
+
+Baucua.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cut_baucua_0000_Baucua_7
+  rotate: false
+  xy: 645, 67
+  size: 187, 63
+  orig: 187, 63
+  offset: 0, 0
+  index: -1
+Cut_baucua_0001_Baucua_6
+  rotate: false
+  xy: 915, 155
+  size: 187, 63
+  orig: 187, 63
+  offset: 0, 0
+  index: -1
+Cut_baucua_0002_Baucua_5
+  rotate: false
+  xy: 1104, 155
+  size: 187, 63
+  orig: 187, 63
+  offset: 0, 0
+  index: -1
+Cut_baucua_0003_Baucua_4
+  rotate: false
+  xy: 1293, 155
+  size: 187, 63
+  orig: 187, 63
+  offset: 0, 0
+  index: -1
+Cut_baucua_0004_Baucua_3
+  rotate: false
+  xy: 1482, 155
+  size: 187, 63
+  orig: 187, 63
+  offset: 0, 0
+  index: -1
+Cut_baucua_0005_Baucua_2
+  rotate: false
+  xy: 1671, 155
+  size: 187, 63
+  orig: 187, 63
+  offset: 0, 0
+  index: -1
+Cut_baucua_0006_Baucua_1
+  rotate: false
+  xy: 645, 2
+  size: 187, 63
+  orig: 187, 63
+  offset: 0, 0
+  index: -1
+Cut_baucua_0009_t_2
+  rotate: true
+  xy: 834, 45
+  size: 85, 81
+  orig: 85, 81
+  offset: 0, 0
+  index: -1
+Cut_baucua_0010_t_3
+  rotate: true
+  xy: 1936, 146
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+Cut_baucua_0011_t_4
+  rotate: true
+  xy: 1860, 148
+  size: 70, 74
+  orig: 70, 74
+  offset: 0, 0
+  index: -1
+Cut_baucua_0013_Bg
+  rotate: false
+  xy: 2, 13
+  size: 423, 205
+  orig: 423, 205
+  offset: 0, 0
+  index: -1
+Cut_baucua_0014_Holo
+  rotate: true
+  xy: 427, 4
+  size: 214, 216
+  orig: 214, 216
+  offset: 0, 0
+  index: -1
+Cut_baucua_0015_t_1
+  rotate: false
+  xy: 645, 132
+  size: 268, 86
+  orig: 268, 86
+  offset: 0, 0
+  index: -1

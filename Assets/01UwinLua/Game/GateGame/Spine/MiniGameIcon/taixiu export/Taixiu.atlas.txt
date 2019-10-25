@@ -1,0 +1,104 @@
+
+Taixiu.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cut_taixiu_0000_xingau_1
+  rotate: false
+  xy: 2, 18
+  size: 279, 131
+  orig: 279, 131
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0001_Mat
+  rotate: false
+  xy: 2, 2
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0001_tx10
+  rotate: false
+  xy: 961, 359
+  size: 313, 96
+  orig: 313, 96
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0002_tx9
+  rotate: false
+  xy: 283, 53
+  size: 313, 96
+  orig: 313, 96
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0002_xingau_2
+  rotate: false
+  xy: 608, 182
+  size: 351, 273
+  orig: 351, 273
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0003_tx8
+  rotate: false
+  xy: 961, 261
+  size: 313, 96
+  orig: 313, 96
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0004_tx7
+  rotate: false
+  xy: 1276, 359
+  size: 313, 96
+  orig: 313, 96
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0005_tx6
+  rotate: false
+  xy: 1276, 261
+  size: 313, 96
+  orig: 313, 96
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0006_tx5
+  rotate: false
+  xy: 1591, 359
+  size: 313, 96
+  orig: 313, 96
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0007_tx4
+  rotate: false
+  xy: 1591, 261
+  size: 313, 96
+  orig: 313, 96
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0008_tx3
+  rotate: false
+  xy: 961, 163
+  size: 313, 96
+  orig: 313, 96
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0009_tx2
+  rotate: false
+  xy: 1276, 163
+  size: 313, 96
+  orig: 313, 96
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0010_tx1
+  rotate: false
+  xy: 1591, 163
+  size: 313, 96
+  orig: 313, 96
+  offset: 0, 0
+  index: -1
+Cut_taixiu_0013_bg
+  rotate: false
+  xy: 2, 151
+  size: 604, 304
+  orig: 604, 304
+  offset: 0, 0
+  index: -1

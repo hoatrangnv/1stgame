@@ -1,0 +1,108 @@
+{
+"skeleton": { "hash": "SzvkTkX6BsBJG4Dzudmv+8/AYeY", "spine": "3.7.91", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root", "x": 145.39, "y": 127.92 },
+	{ "name": "ba", "parent": "bg", "x": -74.72, "y": -110.39 },
+	{ "name": "cay", "parent": "bg", "x": 58.29, "y": -109.86 },
+	{ "name": "chuon", "parent": "bg", "x": -28.53, "y": 15.45 },
+	{ "name": "co", "parent": "bg", "x": 0.38, "y": 15.32 },
+	{ "name": "bich", "parent": "bg", "x": 29.49, "y": 2.57 }
+],
+"slots": [
+	{ "name": "Cut_3Cay_0000_BG", "bone": "bg", "attachment": "Cut_3Cay_0000_BG" },
+	{ "name": "Cut_3Cay_0003_Chuon", "bone": "chuon", "attachment": "Cut_3Cay_0003_Chuon" },
+	{ "name": "Cut_3Cay_0002_Co", "bone": "co", "attachment": "Cut_3Cay_0002_Co" },
+	{ "name": "Cut_3Cay_0001_Bich", "bone": "bich", "attachment": "Cut_3Cay_0001_Bich" },
+	{ "name": "Cut_3Cay_0006_Text_ba", "bone": "ba", "attachment": "Cut_3Cay_0006_Text_ba" },
+	{ "name": "Cut_3Cay_0007_Text_cay", "bone": "cay", "attachment": "Cut_3Cay_0007_Text_cay" }
+],
+"skins": {
+	"default": {
+		"Cut_3Cay_0000_BG": {
+			"Cut_3Cay_0000_BG": { "width": 289, "height": 254 }
+		},
+		"Cut_3Cay_0001_Bich": {
+			"Cut_3Cay_0001_Bich": { "width": 177, "height": 203 }
+		},
+		"Cut_3Cay_0002_Co": {
+			"Cut_3Cay_0002_Co": { "width": 149, "height": 190 }
+		},
+		"Cut_3Cay_0003_Chuon": {
+			"Cut_3Cay_0003_Chuon": { "width": 136, "height": 182 }
+		},
+		"Cut_3Cay_0006_Text_ba": {
+			"Cut_3Cay_0006_Text_ba": { "y": 26.98, "width": 109, "height": 65 }
+		},
+		"Cut_3Cay_0007_Text_cay": {
+			"Cut_3Cay_0007_Text_cay": { "y": 34.38, "width": 156, "height": 85 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"ba": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 0, "y": 26.45 },
+					{ "time": 1, "x": 0, "y": 0 },
+					{ "time": 1.5, "x": 0, "y": 26.45 },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"cay": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 24.36 },
+					{ "time": 0.5, "x": 0, "y": 0 },
+					{ "time": 1, "x": 0, "y": 24.36 },
+					{ "time": 1.5, "x": 0, "y": 0 },
+					{ "time": 2, "x": 0, "y": 24.36 }
+				]
+			},
+			"bich": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.7, "x": 0, "y": 12.01 },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.3667, "x": 1, "y": -1 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"co": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.0333, "x": 0, "y": 8.01 },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6667, "x": 1, "y": 1 },
+					{ "time": 0.7, "x": 1, "y": -1 },
+					{ "time": 1.0333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"chuon": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.3667, "x": 0, "y": 8.01 },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 },
+					{ "time": 1.0333, "x": 1, "y": -1 },
+					{ "time": 1.3667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

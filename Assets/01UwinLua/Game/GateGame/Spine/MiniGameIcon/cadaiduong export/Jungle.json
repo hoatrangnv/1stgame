@@ -1,0 +1,117 @@
+{
+"skeleton": { "hash": "gF7IjQxP6q5ZzcwVcqw5V+uxTs8", "spine": "3.7.91", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root", "x": 213.5, "y": 177.44 },
+	{ "name": "text", "parent": "bg", "x": 57.19, "y": -74.79 },
+	{ "name": "Laduoi", "parent": "bg", "x": 0.01, "y": -171.38 },
+	{ "name": "Dotcay", "parent": "bg", "x": -110.54, "y": 129.38 },
+	{ "name": "Conkhi", "parent": "bg", "x": -113.18, "y": -2.58 },
+	{ "name": "Matkhi", "parent": "Conkhi", "x": -4.96, "y": 78.33 }
+],
+"slots": [
+	{ "name": "Cut_jungle_0000_Bg", "bone": "bg", "attachment": "Cut_jungle_0000_Bg" },
+	{ "name": "Cut_jungle_0006_j_1", "bone": "text", "attachment": "Cut_jungle_0006_j_1" },
+	{ "name": "Cut_jungle_0013_Dayleo", "bone": "Dotcay", "attachment": "Cut_jungle_0013_Dayleo" },
+	{ "name": "Cut_jungle_0012_Soc", "bone": "Conkhi", "attachment": "Cut_jungle_0007_Soc" },
+	{ "name": "Cut_jungle_0001_Lachuoi", "bone": "Laduoi", "attachment": "Cut_jungle_0001_Lachuoi" },
+	{ "name": "Cut_jungle_0011_Mat", "bone": "Matkhi" }
+],
+"skins": {
+	"default": {
+		"Cut_jungle_0000_Bg": {
+			"Cut_jungle_0000_Bg": { "width": 425, "height": 353 }
+		},
+		"Cut_jungle_0001_Lachuoi": {
+			"Cut_jungle_0001_Lachuoi": { "y": 95.68, "width": 421, "height": 196 }
+		},
+		"Cut_jungle_0006_j_1": {
+			"Cut_jungle_0000_j_7": { "x": -35.96, "width": 379, "height": 169 },
+			"Cut_jungle_0001_j_6": { "x": -36.04, "width": 379, "height": 169 },
+			"Cut_jungle_0002_j_5": { "x": -36.04, "width": 379, "height": 169 },
+			"Cut_jungle_0003_j_4": { "x": -36.04, "width": 379, "height": 169 },
+			"Cut_jungle_0004_j_3": { "x": -36.04, "width": 379, "height": 169 },
+			"Cut_jungle_0005_j_2": { "x": -36.04, "width": 379, "height": 169 },
+			"Cut_jungle_0006_j_1": { "x": -36.04, "width": 379, "height": 169 }
+		},
+		"Cut_jungle_0011_Mat": {
+			"Cut_jungle_0011_Mat": { "width": 23, "height": 20 }
+		},
+		"Cut_jungle_0012_Soc": {
+			"Cut_jungle_0007_Soc": { "width": 172, "height": 322 }
+		},
+		"Cut_jungle_0013_Dayleo": {
+			"Cut_jungle_0013_Dayleo": { "width": 38, "height": 106 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"Cut_jungle_0011_Mat": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6, "name": "Cut_jungle_0011_Mat" },
+					{ "time": 0.7, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Cut_jungle_0006_j_1": {
+				"attachment": [
+					{ "time": 0, "name": "Cut_jungle_0006_j_1" },
+					{ "time": 0.0333, "name": "Cut_jungle_0005_j_2" },
+					{ "time": 0.0667, "name": "Cut_jungle_0004_j_3" },
+					{ "time": 0.1, "name": "Cut_jungle_0003_j_4" },
+					{ "time": 0.1333, "name": "Cut_jungle_0002_j_5" },
+					{ "time": 0.1667, "name": "Cut_jungle_0001_j_6" },
+					{ "time": 0.2, "name": "Cut_jungle_0000_j_7" },
+					{ "time": 0.2333, "name": "Cut_jungle_0006_j_1" },
+					{ "time": 1, "name": "Cut_jungle_0006_j_1" },
+					{ "time": 1.0333, "name": "Cut_jungle_0005_j_2" },
+					{ "time": 1.0667, "name": "Cut_jungle_0004_j_3" },
+					{ "time": 1.1, "name": "Cut_jungle_0003_j_4" },
+					{ "time": 1.1333, "name": "Cut_jungle_0002_j_5" },
+					{ "time": 1.1667, "name": "Cut_jungle_0001_j_6" },
+					{ "time": 1.2, "name": "Cut_jungle_0000_j_7" },
+					{ "time": 1.2333, "name": "Cut_jungle_0006_j_1" }
+				]
+			}
+		},
+		"bones": {
+			"text": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 133.59 },
+					{ "time": 0.5, "x": 0, "y": 0 },
+					{ "time": 1, "x": 0, "y": 133.59 },
+					{ "time": 1.5, "x": 0, "y": 0 },
+					{ "time": 2, "x": 0, "y": 133.59 }
+				]
+			},
+			"Conkhi": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -40.44 },
+					{ "time": 0.5, "x": 0, "y": 15.44 },
+					{ "time": 1, "x": 0, "y": -40.44 },
+					{ "time": 1.5, "x": 0, "y": 15.44 },
+					{ "time": 2, "x": 0, "y": -40.44 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.1, "y": 1.1 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"Laduoi": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1, "y": 1.05 },
+					{ "time": 1, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 1, "y": 1.05 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}
