@@ -153,6 +153,7 @@ public class SceneStart : MonoBehaviour
 
     private void CheckDownloadAsset()
     {
+       
 #if UNITY_EDITOR
         if (AssetbundlesManager.SimulateAssetBundleInEditor)
         {

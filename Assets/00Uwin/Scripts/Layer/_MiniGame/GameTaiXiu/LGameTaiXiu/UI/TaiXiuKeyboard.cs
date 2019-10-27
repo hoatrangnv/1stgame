@@ -8,10 +8,7 @@ public class TaiXiuKeyboard : MonoBehaviour
 
     public GameObject gQuick;
     public GameObject gInput;
-
-    public GameObject gBtQuick;
-    public GameObject gBtInput;
-
+    [SerializeField]
     private Text txtView;
     public bool isQuick;
 
@@ -24,7 +21,7 @@ public class TaiXiuKeyboard : MonoBehaviour
         AudioAssistant.Instance.PlaySoundGame(_layerTaiXiu._GAMEID, _layerTaiXiu._SCOIN);
         if (otherNum == 0)
         {
-            if (num <= 0 || num == 1000)
+            if (num <= 0 || num == 100)
                 return;
         }
 
@@ -38,9 +35,9 @@ public class TaiXiuKeyboard : MonoBehaviour
             else
                 otherNum = Int64.Parse(strNum);
         }
-        else if (num == 1000)
+        else if (num == 100)
         {
-            otherNum = otherNum * 1000;
+            otherNum = otherNum * 100;
         }
         else
         {
@@ -79,13 +76,9 @@ public class TaiXiuKeyboard : MonoBehaviour
     public void ButtonChangeClick()
     {
         AudioAssistant.Instance.PlaySoundGame(_layerTaiXiu._GAMEID, _layerTaiXiu._SCLICK);
-
         isQuick = !isQuick;
         gQuick.SetActive(isQuick);
         gInput.SetActive(!isQuick);
-
-        gBtQuick.SetActive(!isQuick);
-        gBtInput.SetActive(isQuick);
 
         otherNum = 0;
         txtView.text = "Đặt Cửa";
@@ -126,5 +119,14 @@ public class TaiXiuKeyboard : MonoBehaviour
         this.txtView = txtView;
         txtView.text = "0";
         otherNum = 0;
+    }
+    private void OnEnable()
+    {
+        gQuick.SetActive(isQuick);
+        gInput.SetActive(!isQuick);
+
+
+        otherNum = 0;
+        txtView.text = "Đặt Cửa";
     }
 }
