@@ -260,7 +260,7 @@ public class UILayerController : MonoBehaviour
                 if (!obj.GetComponent<UILayer>().lockCanvasScale)
                 {
                     CanvasScaler canvasScaler = obj.GetComponent<CanvasScaler>();
-                    canvasScaler.matchWidthOrHeight = 1f;
+                    canvasScaler.matchWidthOrHeight = f;
                 }
             }
             else

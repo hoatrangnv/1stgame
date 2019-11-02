@@ -37,9 +37,8 @@ public class ViewElementGame : MonoBehaviour
         StopAllCoroutines();
     }
 
-    private void OnEnable()
+    private void Start()
     {
-        ShowEventJackpot();
         StartCoroutine(IEShowEventJackpot());
     }
 
@@ -248,22 +247,24 @@ public class ViewElementGame : MonoBehaviour
     {
         while (true)
         {
-            if (Database.Instance.isGetDataEventJackpot == false)
+            if (Database.Instance != null)
             {
-                timeGetEventLoop = 0.5f;
-            }
-            else
-            {
-                timeGetEventLoop = Database.Instance.timeGetInfoEventJackpot;
-            }
+                if (!Database.Instance.isGetDataEventJackpot)
+                {
+                    timeGetEventLoop = 0.5f;
+                }
+                else
+                {
+                    timeGetEventLoop = Database.Instance.timeGetInfoEventJackpot;
+                }
 
-            yield return Yielders.Get(timeGetEventLoop);
+                yield return Yielders.Get(timeGetEventLoop);
 
-            if (Database.Instance.isGetDataEventJackpot)
-            {
-                ShowEventJackpot();
+                if (Database.Instance.isGetDataEventJackpot)
+                {
+                    ShowEventJackpot();
+                }
             }
-
         }
     }
 
@@ -275,17 +276,26 @@ public class ViewElementGame : MonoBehaviour
         {
             return;
         }
+         if (!Database.Instance.dictEventJackpot.ContainsKey((int)gameId))
+            {
 
-        if (!Database.Instance.dictEventJackpot.ContainsKey((int)gameId) || !Database.Instance.dictEventJackpot[(int)gameId].IsEvent)
-        {
-            objAllEvent.SetActive(false);
-            return;
-        }
-        else
-        {
-            objAllEvent.SetActive(true);
-        }
+                objAllEvent.SetActive(false);
+                return;
+            }
+            else
+            {
+            if (Database.Instance.dictEventJackpot[(int)gameId] == null)
+                     return;
+            if (Database.Instance.dictEventJackpot[(int)gameId].IsEvent) {
+                objAllEvent.SetActive(true);
+            }
+            else
+            {
+                objAllEvent.SetActive(false);
+                return;
+            }
 
+        }
         int maxEvent = 0;
         int indexRoomMax = 0;
         var listData = Database.Instance.dictEventJackpot[(int)gameId].list;
@@ -319,7 +329,6 @@ public class ViewElementGame : MonoBehaviour
                 notice += ", " + "Mức cược: " + betRoom[listData[i].RoomId - 1] + " x" + listData[i].Multi;
             }
         }
-
         noticeRun.ShowNotice(notice, Database.Instance.timeGetInfoEventJackpot);
     }
 

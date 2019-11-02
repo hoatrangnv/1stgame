@@ -50,8 +50,8 @@ local uiLayerThis
 
 -- ("CONFIG")]
 local  _GAMEID = 11 --GameEnums.GameId_MINIPOKER
-local  _API = "http://minipoker.hamvip.club/"
-local  _URL = "http://minipoker.hamvip.club/signalr/negotiate/"
+local  _API = "httpss://minipoker.nhatbet.com/"
+local  _URL = "httpss://minipoker.nhatbet.com/signalr/negotiate/"
 local  _HUBNAME = "Minipoker"
 
 local vkTxtJackpot

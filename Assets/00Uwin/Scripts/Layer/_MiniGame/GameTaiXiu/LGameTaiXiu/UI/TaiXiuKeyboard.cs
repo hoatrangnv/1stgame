@@ -124,9 +124,5 @@ public class TaiXiuKeyboard : MonoBehaviour
     {
         gQuick.SetActive(isQuick);
         gInput.SetActive(!isQuick);
-
-
-        otherNum = 0;
-        txtView.text = "Đặt Cửa";
     }
 }

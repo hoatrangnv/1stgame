@@ -1,4 +1,4 @@
-local cs_coroutine = require 'common.cs_coroutine'
+local cs_coroutine = require 'cs_coroutine'
 
 local deepOrder = 5
 local deepPlaneDistance = 100
@@ -13,8 +13,8 @@ local timePause = 0
 local ShowLayerFromBundleCallBack = nil
 local _uiCamera = nil
 
-local urlApiPortal = "http://api.hamvip.club/"
-local urlEvent = "http://event.hamvip.club/api/"
+local urlApiPortal = "https://api.nhatbet.com/"
+local urlEvent = "https://event.nhatbet.com/api"
 
 function start()
 
@@ -34,9 +34,7 @@ function start()
     deepOrderStarts[CS.UILayer.Position.Top] = 120
 
     screenRatio = CS.UnityEngine.Screen.width / CS.UnityEngine.Screen.height
-
     _uiCamera = uiCamera:GetComponent(typeof(CS.UnityEngine.Camera))
-    
     for _,name in ipairs({"LPopup", "LPopupTop"}) do
         local layer = CreateLayer(name)
         layer:BeforeHideLayer();

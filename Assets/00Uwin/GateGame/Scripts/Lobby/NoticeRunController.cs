@@ -35,7 +35,8 @@ public class NoticeRunController : MonoBehaviour
 
     public void ShowNotice(string strNotice, float timeRun)
     {
-        isRun = false;
+        if (mRectTrans == null)
+            InitNoticeNotice();
         tempVector3 = mRectTrans.anchoredPosition;
         tempVector3.x = 0;
         mRectTrans.anchoredPosition = tempVector3;

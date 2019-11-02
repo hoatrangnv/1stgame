@@ -52,9 +52,9 @@ local uiLayerThis
 
 -- ("CONFIG")]
 local  _GAMEID = 105
-local  _API = "http://tlmnsolo.hamvip.club/tlmnsolo/"
-local  _URLSOLO = "http://tlmnsolo.hamvip.club/signalr/negotiate"
-local  _URLMULTI = "http://tlmn.hamvip.club/signalr/negotiate"
+local  _API = "https://tlmnsolo.nhatbet.com/tlmnsolo/"
+local  _URLSOLO = "https://tlmnsolo.nhatbet.com/signalr/negotiate"
+local  _URLMULTI = "https://tlmn.nhatbet.com/signalr/negotiate"
 
 local  _HUBNAME = "tienlenHub"
 

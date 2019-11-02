@@ -14742,7 +14742,7 @@ MonoBehaviour:
   txtQuantityGoldGive: {fileID: 114595753997682616}
   txtQuantityFee: {fileID: 114958846217449840}
   txtQuantityGoldTrans: {fileID: 114225867065464108}
-  imgCaptcha: {fileID: 0}
+  imgCaptcha: {fileID: 114212211634096548}
   inputFielCaptcha: {fileID: 114999177809861232}
   btGetCaptcha: {fileID: 114284922424187736}
   btTransfer: {fileID: 114199534077299266}

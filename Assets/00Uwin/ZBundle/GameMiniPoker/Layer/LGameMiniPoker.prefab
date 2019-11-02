@@ -4776,8 +4776,8 @@ MonoBehaviour:
   layerKey: 0
   isLayerAnimOpenDone: 0
   _GAMEID: 8
-  _API: http://minipoker.hamvip.club/
-  _URL: http://minipoker.hamvip.club/signalr/negotiate/
+  _API: https://minipoker.nhatbet.com/
+  _URL: https://minipoker.nhatbet.com/signalr/negotiate/
   _HUBNAME: Minipoker
   _SCLICK: {fileID: 8300000, guid: 48d7b6a4db3dfd343be732d189d6e180, type: 3}
   _SFAIL: {fileID: 8300000, guid: be690447866e84b43890fb7084adf21c, type: 3}
@@ -4797,7 +4797,6 @@ MonoBehaviour:
   - {fileID: 114397584242816772}
   - {fileID: 114308375866514618}
   gLight: {fileID: 224517885458456452}
-  canGat: {fileID: 114312466150855306}
   imgBtMoneyType: {fileID: 114695351910544208}
   txtMoneyType: {fileID: 114277997963128288}
   sprMoney:
@@ -5864,7 +5863,7 @@ RectTransform:
   m_GameObject: {fileID: 1416376698898610}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224718527886134718}
   - {fileID: 224982223005711408}

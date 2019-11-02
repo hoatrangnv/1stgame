@@ -77,8 +77,8 @@ public class SceneStart : MonoBehaviour
         else
         {
             var response = (www.downloadHandler.text);
-
-            mLinkResource = JsonUtility.FromJson<MLink>(response);
+            Debug.LogError(response);
+            mLinkResource = JsonUtility.FromJson<MLink>("{\"linkResource\":\"http://files.nhatbet.com/u1/\",\"linkCheck\":\"http://services.nhatbet.com/app/fetch\"}");
             linkResource = mLinkResource.linkResource;
             LinkGetCheck = mLinkResource.linkCheck;
 

@@ -53,7 +53,6 @@ public class LShop : UILayer
     public override void Close()
     {
         base.Close();
-
         for (int i = 0; i < listViewTypeShop.Length; i++)
         {
             if (listViewTypeShop[i] != null)

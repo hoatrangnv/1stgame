@@ -1,6 +1,6 @@
 {
   "assetbundle": {
-    "link": "http://files.hamvip.club/u1/pub/",
+    "link": "https://files.nhatbet.com/u1/pub/",
     "preload": [
       {
         "gid": 0,
@@ -99,8 +99,8 @@
   ,
   "taixiu": {
     "gameId": 4,
-    "urlApi": "http://files.hamvip.club",
-    "urlServer": "http://files.hamvip.club/signalr/negotiate",
+    "urlApi": "https://files.nhatbet.com",
+    "urlServer": "https://files.nhatbet.com/signalr/negotiate",
     "hubName": "luckyDice"
   }
 }

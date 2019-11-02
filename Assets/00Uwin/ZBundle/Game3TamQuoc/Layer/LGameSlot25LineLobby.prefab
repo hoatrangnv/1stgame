@@ -1698,8 +1698,8 @@ MonoBehaviour:
   isLayerAnimOpenDone: 0
   _config:
     gameId: 3
-    urlApi: http://haivuong.hamvip.club/
-    urlServer: http://haivuong.hamvip.club/signalr/negotiate
+    urlApi: https://haivuong.nhatbet.com/
+    urlServer: https://haivuong.nhatbet.com/signalr/negotiate
     hubName: Slot25Lines
     pageJackpotSize: 10
     timeWaitNextAuto: 2

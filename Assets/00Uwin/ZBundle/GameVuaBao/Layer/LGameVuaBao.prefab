@@ -10937,8 +10937,8 @@ MonoBehaviour:
   layerKey: 0
   isLayerAnimOpenDone: 0
   _GAMEID: 6
-  _API: http://kimcuong.hamvip.club/
-  _URL: http://kimcuong.hamvip.club/signalr/negotiate
+  _API: https://kimcuong.nhatbet.com/
+  _URL: https://kimcuong.nhatbet.com/signalr/negotiate
   _HUBNAME: HubThanQuay
   _MAXRECORD: 200
   _SCLICK: {fileID: 8300000, guid: 48d7b6a4db3dfd343be732d189d6e180, type: 3}

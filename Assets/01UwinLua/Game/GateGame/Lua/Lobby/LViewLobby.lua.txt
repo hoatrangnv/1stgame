@@ -102,7 +102,6 @@ local spriteOffMusic
 local btVipPoint
 local btGiftCode
 local btFanpage
-local btHotline
 local btMail
 local objNoticeMail
 local txtNoticeMail
@@ -157,8 +156,9 @@ function EnableLayer()
             GetPassSaveLocal();
     end
     lobbyController:InvokeXLua("Show")
-
+    if(CS.AudioAssistant.Instance ~= nil) then
     CS.AudioAssistant.Instance:PlayMusic(CS.StringHelper.SOUND_GATE_BG)
+    end
     SetSoundAndMusic()
 end
 
@@ -210,7 +210,6 @@ function LoadObjectGame()
 	btVipPoint = _btVipPoint:GetComponent(typeof(CS.UnityEngine.UI.Button))
     btGiftCode = _btGiftCode:GetComponent(typeof(CS.UnityEngine.UI.Button))
     btFanpage = _btFanpage:GetComponent(typeof(CS.UnityEngine.UI.Button))
-    btHotline = _btHotline:GetComponent(typeof(CS.UnityEngine.UI.Button))
     btMail = _btMail:GetComponent(typeof(CS.UnityEngine.UI.Button))
     btOtpTelegram = _btOtpTelegram:GetComponent(typeof(CS.UnityEngine.UI.Button))
     objNoticeMail = _objNoticeMail
@@ -271,7 +270,6 @@ function AddEvent()
     btFanpage.onClick:AddListener(ClickBtFanpage);
 	btVipPoint.onClick:AddListener(ClickBtVipPoint);
     btGiftCode.onClick:AddListener(ClickBtGift);
-    btHotline.onClick:AddListener(ClickBtHotline);
     btMail.onClick:AddListener(ClickBtMail);
     btOtpTelegram.onClick:AddListener(ClickBtOtpTelegram);
 
@@ -384,7 +382,7 @@ function ClickBtLogout()
     objMenuBottom:SetActive(false);
 
     -- logout Web
-    local url = "http://services.hamvip.club/Account/Signout"
+    local url = "https://services.nhatbet.com/Account/Signout"
     CS.WebServiceController.Instance:SendRequestCodeString("Singout",url,nil,0)
 
     CS.AudioAssistant.Instance:Shot(CS.StringHelper.SOUND_GATE_BT);
@@ -482,6 +480,7 @@ function GetElementGameById(gameId)
 end
 
 function LoginSuccess()
+    CS.VKDebug.LogColorRed("Save");
     objHeadPrepareLogin:SetActive(false)
     objHeadLogined:SetActive(true)
     objMenuBottom:SetActive(true)
@@ -523,7 +522,7 @@ function SetQuantiyGem(quantityGame)
     txtQuantityGem:UpdateNumber(quantityGame)
 end
 
-function setQuantityCoin(quanityCoin)
+function SetQuantityCoin(quanityCoin)
     
 end
 
@@ -540,10 +539,10 @@ function SetSoundAndMusic()
 
     isMuteSoundLobby = CS.UnityEngine.PlayerPrefs.GetInt(keySoundLobby) == 1
     isMuteMusicLobby = CS.UnityEngine.PlayerPrefs.GetInt(keyMusicLobby) == 1
-
+    if(CS.AudioAssistant.Instanc ~= nil) then
     CS.AudioAssistant.Instance:MuteSound(isMuteSoundLobby)
     CS.AudioAssistant.Instance:MuteMusic(isMuteMusicLobby)
-
+    end
     if (isMuteMusicLobby) then
         btMusic:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite = spriteOffMusic
         

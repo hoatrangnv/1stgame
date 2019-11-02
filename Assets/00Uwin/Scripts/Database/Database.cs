@@ -20,13 +20,10 @@ public class Database : MonoBehaviour
     {
         get
         {
-            if (instance == null)
-            {
-                instance = GameObject.FindObjectOfType<Database>();
-            }
             return instance;
         }
     }
+
     #endregion
 
     #region Properties
@@ -47,6 +44,7 @@ public class Database : MonoBehaviour
     [SerializeField]
     [CSharpCallLua]
     public OnUserUpdateGoldEventLua onUserUpdateGoldEventLua = new OnUserUpdateGoldEventLua();
+    [CSharpCallLua]
     public OnUserUpdateCoinEventLua onUserUpdateCoinEventLua = new OnUserUpdateCoinEventLua();
     // END
 
@@ -68,7 +66,7 @@ public class Database : MonoBehaviour
     [HideInInspector]
     public string accountTemp;
     [HideInInspector]
-    public string tokenOTPLogin;
+    public string tokenOTPLogin = "";
 
     [HideInInspector]
     public bool islogin = false;
@@ -76,12 +74,12 @@ public class Database : MonoBehaviour
     public int currentGame;
 
     // Top Jackpot
-    public float timeGetAllJackpot;
+    public float timeGetAllJackpot = 2f;
     public List<MEventGetAllJackpot> listDataAllJackpot = new List<MEventGetAllJackpot>();
 
     // Event Jackpot
     public bool isGetDataEventJackpot = false;
-    public float timeGetInfoEventJackpot = 10f;
+    public float timeGetInfoEventJackpot = 2f;
     public Dictionary<int, MEventGetBigJackpotInfo> dictEventJackpot = new Dictionary<int, MEventGetBigJackpotInfo>();
 
     // User Data New 
@@ -93,6 +91,8 @@ public class Database : MonoBehaviour
     #region UnityMethod
     void Awake()
     {
+        if (instance == null)
+            instance = this;
         DontDestroyOnLoad(this.gameObject);
 
         currentGame = GameId.NONE;

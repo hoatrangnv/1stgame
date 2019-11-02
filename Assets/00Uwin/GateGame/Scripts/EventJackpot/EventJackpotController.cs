@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class EventJackpotController : MonoBehaviour
 {
-    private Database dataBase;
     private MEventGetBigJackpotInfo eventInfoJackpot;
 
-    private void Start()
+    private void Awake()
     {
-        dataBase = Database.Instance;
         WebServiceController.Instance.OnWebServiceResponse += OnWebServiceResponse;
         SendGetEventJackpot();
         StartCoroutine(GetEventJackpotLoop());
@@ -121,14 +119,10 @@ public class EventJackpotController : MonoBehaviour
     {
         while (true)
         {
-            if (dataBase == null)
-            {
-                dataBase = Database.Instance;
-            }
 
-            var timeLoop = dataBase.timeGetInfoEventJackpot;
+            var timeLoop = Database.Instance.timeGetInfoEventJackpot;
 
-            if (!dataBase.isGetDataEventJackpot)
+            if (!Database.Instance.isGetDataEventJackpot)
             {
                 timeLoop = 1f;
             }
@@ -150,11 +144,6 @@ public class EventJackpotController : MonoBehaviour
 
     private void AddDatabase(int key, MEventGetBigJackpotInfo data)
     {
-        if (dataBase == null)
-        {
-            dataBase = Database.Instance;
-        }
-
-        dataBase.UpdateEventJackpot(key, data);
+        Database.Instance.UpdateEventJackpot(key, data);
     }
 }

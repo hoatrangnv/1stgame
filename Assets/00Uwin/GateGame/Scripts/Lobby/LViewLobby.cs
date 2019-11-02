@@ -445,7 +445,7 @@ public class LViewLobby : UILayer
         txtQuantityGem.UpdateNumber(quantityGame);
     }
 
-    public void setQuantityCoin(double quanityCoin)
+    public void SetQuantityCoin(double quanityCoin)
     {
         txtQuantityCoin.StopValueChange();
         txtQuantityCoin.isMoney = true;

@@ -60,7 +60,7 @@ public class ShopLoadCard : AbsShop
             listElementRateConvert[i].gameObject.SetActive(false);
         }
 
-        dropPriceCard.onValueChanged.AddListener((value) => { OnChangeDropDown(value); });
+        //dropPriceCard.onValueChanged.AddListener((value) => { OnChangeDropDown(value); });
         btGetCaptcha.onClick.AddListener(ClickBtGetCaptcha);
         btLoadCard.onClick.AddListener(ClickBtLoadCard);
 

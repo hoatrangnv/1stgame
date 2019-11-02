@@ -1236,8 +1236,8 @@ MonoBehaviour:
   isLayerAnimOpenDone: 0
   _config:
     gameId: 2
-    urlApi: http://mafia.hamvip.club/
-    urlServer: http://mafia.hamvip.club//signalr/negotiate
+    urlApi: https://mafia.nhatbet.com/
+    urlServer: https://mafia.nhatbet.com//signalr/negotiate
     hubName: Game2Hub
     pageJackpotSize: 10
     timeWaitNextAuto: 2

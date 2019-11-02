@@ -179,7 +179,7 @@ public class LobbyController : MonoBehaviour
         viewLobby.LoginSuccess();
         Database.Instance.islogin = true;
         viewLobby.SetQuantiyGem(Database.Instance.Account().Gold);
-        viewLobby.setQuantityCoin(Database.Instance.Account().Coin);
+        viewLobby.SetQuantityCoin(Database.Instance.Account().Coin);
         viewLobby.SetName(Database.Instance.Account().DisplayName);
 
         // Get Mail Unread
@@ -217,7 +217,7 @@ public class LobbyController : MonoBehaviour
 
     private void UpdateCoin(MAccountInfoUpdateCoin infoUpdate)
     {
-        viewLobby.setQuantityCoin(infoUpdate.Coin);
+        viewLobby.SetQuantityCoin(infoUpdate.Coin);
     }
 
     private void UpdateGold(MAccountInfoUpdateGold infoUpdate)

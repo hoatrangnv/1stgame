@@ -7528,8 +7528,8 @@ MonoBehaviour:
   layerKey: 0
   isLayerAnimOpenDone: 0
   _GAMEID: 9
-  _API: http://baucua.hamvip.club/
-  _URL: http://baucua.hamvip.club/signalr/negotiate
+  _API: https://baucua.nhatbet.com/
+  _URL: https://baucua.nhatbet.com/signalr/negotiate
   _HUBNAME: HooHeyHow
   _MAXHISTORY: 100
   _SCLICK: {fileID: 8300000, guid: 48d7b6a4db3dfd343be732d189d6e180, type: 3}
@@ -9687,7 +9687,7 @@ RectTransform:
   m_GameObject: {fileID: 1184307816282746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8550691, y: 0.8550688, z: 1.221527}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224765799384151754}
   - {fileID: 224162887886839182}

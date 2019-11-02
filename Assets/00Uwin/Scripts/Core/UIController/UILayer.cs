@@ -288,7 +288,6 @@ public class UILayer : MonoBehaviour
             RectTransform rect = gContentAll.GetComponent<RectTransform>();
             rect.localPosition = new Vector2(0, 0);
             rect.localPosition = new Vector2(0, 0);
-
             CanvasGroup cvGroup = gContentAll.GetComponent<CanvasGroup>();
             cvGroup.alpha = 1;
         }

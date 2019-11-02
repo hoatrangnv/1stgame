@@ -1798,7 +1798,7 @@ MonoBehaviour:
   valueTextAll: []
   colorOutlineTextAll: []
   baseValueTextAll:
-  - 100K
+  - 100000
   baseColorOutlineTextAll: []
 --- !u!114 &114151761518189980
 MonoBehaviour:
@@ -1968,7 +1968,7 @@ MonoBehaviour:
   valueTextAll: []
   colorOutlineTextAll: []
   baseValueTextAll:
-  - 1K
+  - 100
   baseColorOutlineTextAll: []
 --- !u!114 &114190448609047472
 MonoBehaviour:
@@ -2125,7 +2125,7 @@ MonoBehaviour:
   valueTextAll: []
   colorOutlineTextAll: []
   baseValueTextAll:
-  - 50K
+  - 50000
   baseColorOutlineTextAll: []
 --- !u!114 &114207039229422128
 MonoBehaviour:
@@ -2685,7 +2685,7 @@ MonoBehaviour:
   valueTextAll: []
   colorOutlineTextAll: []
   baseValueTextAll:
-  - 10K
+  - 10000
   baseColorOutlineTextAll: []
 --- !u!114 &114308900355353554
 MonoBehaviour:
@@ -3928,8 +3928,8 @@ MonoBehaviour:
   layerKey: 0
   isLayerAnimOpenDone: 0
   _GAMEID: 5
-  _API: http://caothap.hamvip.club/
-  _URL: http://caothap.hamvip.club/signalr/negotiate
+  _API: https://caothap.nhatbet.com/
+  _URL: https://caothap.nhatbet.com/signalr/negotiate
   _HUBNAME: Hilo
   _MAXHISTORY: 100
   _SCLICK: {fileID: 8300000, guid: 48d7b6a4db3dfd343be732d189d6e180, type: 3}
@@ -5194,7 +5194,7 @@ RectTransform:
   m_GameObject: {fileID: 1184307816282746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224345491007141370}
   - {fileID: 224484543022964352}
